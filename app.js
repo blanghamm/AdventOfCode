@@ -41,7 +41,7 @@ const passwordValidator = (setPartTwoActive) => {
     });
     //Filter the returned array and count the number of true outputs
     const validPartOne = validPasswordsPartOne.filter(Boolean).length;
-    console.log(validPartOne);
+    console.log("Valid Part One:", validPartOne);
   }
   //Second part of the exercise. Could wrap them up together at the expense of readability
   if (setPartTwoActive) {
@@ -70,7 +70,7 @@ const passwordValidator = (setPartTwoActive) => {
     });
     //Check for true values
     const validPartTwo = validPasswordsPartTwo.filter(Boolean).length;
-    console.log(validPartTwo);
+    console.log("Valid Part Two:", validPartTwo);
   }
 };
 
